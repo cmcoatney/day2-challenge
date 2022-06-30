@@ -60,3 +60,21 @@ footer p {
   text-align: end;
 }
 
+@media (max-width: 1024px) {
+  .wrapper {
+    background-color: pink;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    background-color: green;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    background-color: blue;
+  }
+}
+
